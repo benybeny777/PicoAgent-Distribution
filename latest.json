@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "notes": "初回販売準備版です。更新インストーラの公開後、このファイルへサイズとSHA-256を登録します。",
+  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases",
+  "platforms": {
+    "windows-x64": { "url": "", "size": 0, "sha256": "" },
+    "macos-arm64": { "url": "", "size": 0, "sha256": "" },
+    "macos-x64": { "url": "", "size": 0, "sha256": "" }
+  }
+}
