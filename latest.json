@@ -1,5 +1,5 @@
 {
-  "notes": "開発中ベータ版。BETA表示、視線設定、高精細キャラクター、最新プレビューを更新。",
+  "notes": "PicoAgent v1.0.0 Beta（全機能試用）",
   "platforms": {
     "macos-arm64": {
       "sha256": "",
@@ -12,8 +12,8 @@
       "url": ""
     },
     "windows-x64": {
-      "sha256": "1a9f210f3177fd0fae71d95f994b9131b996a76d317bcf8ab8fd4e3921e25332",
-      "size": 412158805,
+      "sha256": "845c9f283a5ece4eddbeb1b3e707db317b9c3159c18e90d4bca50a28c894cff6",
+      "size": 412114552,
       "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.0.0/PicoAgent_1.0.0_x64-setup.exe"
     }
   },
