@@ -26,7 +26,7 @@ Live2Dの「ひより」は動作例です。ほかのモデルは下の一覧�
 |---|---|---|
 | ![レン通常](assets/character-ren.webp)<br>![レン配信](assets/character-ren-stream.webp) | ![ライス通常](assets/character-rice.webp)<br>![ライス配信](assets/character-rice-stream.webp) | ![わんこ通常](assets/character-wanko.webp)<br>![わんこ配信](assets/character-wanko-stream.webp) |
 
-各プレビューは標準のペット表示を480px・134フレーム／16fpsで撮影し、待機、まばたき、口パク、モデルモーションを含みます。ライスは元モデルに口パラメータがないため口パク非対応です。本作品のキャラクターには株式会社Live2Dの著作物が用いられています。利用前に[サンプルデータ利用条件](https://www.live2d.com/learn/sample/model-terms/)を確認してください。
+各プレビューは通常表示と配信表示を480px・134フレーム／16fpsで撮影しています。会話→考え中→成功→待機の3切替だけに抑え、まばたきと口パクを自然に見せます。ライスは元モデルに口パラメータがないため口パク非対応です。本作品のキャラクターには株式会社Live2Dの著作物が用いられています。利用前に[サンプルデータ利用条件](https://www.live2d.com/learn/sample/model-terms/)を確認してください。
 
 ## 付属キャラクター
 
