@@ -1,11 +1,23 @@
 {
-  "schemaVersion": 1,
-  "version": "1.0.0",
-  "notes": "初回販売準備版です。更新インストーラの公開後、このファイルへサイズとSHA-256を登録します。",
-  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases",
+  "notes": "開発中ベータ版。BETA表示、視線設定、高精細キャラクター、最新プレビューを更新。",
   "platforms": {
-    "windows-x64": { "url": "", "size": 0, "sha256": "" },
-    "macos-arm64": { "url": "", "size": 0, "sha256": "" },
-    "macos-x64": { "url": "", "size": 0, "sha256": "" }
-  }
+    "macos-arm64": {
+      "sha256": "",
+      "size": 0,
+      "url": ""
+    },
+    "macos-x64": {
+      "sha256": "",
+      "size": 0,
+      "url": ""
+    },
+    "windows-x64": {
+      "sha256": "1a9f210f3177fd0fae71d95f994b9131b996a76d317bcf8ab8fd4e3921e25332",
+      "size": 412158805,
+      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.0.0/PicoAgent_1.0.0_x64-setup.exe"
+    }
+  },
+  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.0.0",
+  "schemaVersion": 1,
+  "version": "1.0.0"
 }
