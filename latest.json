@@ -12,8 +12,8 @@
       "url": ""
     },
     "windows-x64": {
-      "sha256": "845c9f283a5ece4eddbeb1b3e707db317b9c3159c18e90d4bca50a28c894cff6",
-      "size": 412114552,
+      "sha256": "cdd06034a3c2c88e918ae2959b7a72576742d977bcacdf1c1545bdd9dd1c545c",
+      "size": 412114239,
       "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.0.0/PicoAgent_1.0.0_x64-setup.exe"
     }
   },
