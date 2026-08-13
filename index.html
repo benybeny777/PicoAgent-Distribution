@@ -22,9 +22,11 @@
       </a>
       <nav class="site-nav" aria-label="ページ内ナビゲーション">
         <a href="#features">できること</a>
+        <a href="#models">AIモデル</a>
         <a href="characters.html">キャラ</a>
         <a href="#layouts">表示形式</a>
         <a href="#guide">導入</a>
+        <a href="#faq">FAQ</a>
       </nav>
       <a class="button small" href="https://github.com/benybeny777/PicoAgent-Distribution/releases">Windowsベータ版</a>
     </header>
@@ -96,6 +98,88 @@
       </ul>
     </section>
 
+    <section class="section skills" id="skills">
+      <div class="section-heading centered">
+        <p class="eyebrow">70 SKILLS</p>
+        <h2>「できること」は、<br>70種のスキルで増えていく。</h2>
+        <p>頼めることは雑談だけではありません。PicoAgentは目的ごとのスキルを持っていて、会話の中から必要なものだけを自分で選んで実行します。外部サービスを使うスキルは、あなたが設定して有効にしたものだけが動きます。</p>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>毎日の習慣</h3>
+          <p>時刻・天気・目覚まし・リマインダー・集中タイマー・ToDo・今日のまとめ・ほめログ・ニュース・RSS・為替・株価</p>
+        </article>
+        <article class="skill-card">
+          <h3>ファイルと文書</h3>
+          <p>読み書き・検索（ファイル名／全文）・作業フォルダ整理・PDF編集・Office文書・形式変換・画像の確認と加工・ノートブック編集</p>
+        </article>
+        <article class="skill-card">
+          <h3>PC操作</h3>
+          <p>アプリ起動・ウィンドウ操作・クリップボード・コマンド実行・長時間ジョブ・予約実行（cron風）・コード実行</p>
+        </article>
+        <article class="skill-card">
+          <h3>Webと調べもの</h3>
+          <p>Web検索・ページ取得・ブラウザ操作・調査レポート作成・プロジェクト単位の情報整理</p>
+        </article>
+        <article class="skill-card">
+          <h3>連絡とタスク管理</h3>
+          <p>Gmail・Slack・Discord・GitHub・Notion・Jira・Linear・Trello・Todoist・Googleカレンダー／ドライブ／ドキュメント／スプレッドシート／ToDo・Microsoft Graph</p>
+        </article>
+        <article class="skill-card">
+          <h3>SNS</h3>
+          <p>X・Bluesky・Mastodon・Misskey・Reddit・LinkedIn</p>
+        </article>
+        <article class="skill-card">
+          <h3>音声と記録</h3>
+          <p>会議の録音・ローカル文字起こし（Whisper）・議事録づくり</p>
+        </article>
+        <article class="skill-card">
+          <h3>つくる</h3>
+          <p>画像生成・ComfyUI連携・制作ワークスペース</p>
+        </article>
+      </div>
+      <p class="skill-note">スキルは会話の内容から自動で選ばれます。ファイル操作は許可した範囲だけ、削除相当は必ずゴミ箱へ。外部サービス連携は、鍵やトークンを設定した分だけ有効になります。</p>
+    </section>
+
+    <section class="section models" id="models">
+      <div class="section-heading centered">
+        <p class="eyebrow">CHOOSE YOUR AI</p>
+        <h2>頭脳は、あとから選べる。</h2>
+        <p>既定は同梱のローカルAIです。初回だけモデルを取得すれば、以後はオフラインでも会話できます。もっと賢くしたくなったら、設定から接続先を切り替えるだけです。</p>
+      </div>
+      <div class="model-grid">
+        <article class="model-card featured">
+          <p class="card-kicker">DEFAULT</p>
+          <h3>同梱ローカルAI</h3>
+          <p>推論エンジンを同梱。PCのメモリ／VRAMの目安から自動でモデルを選び、初回だけダウンロードします。会話内容は外部へ送信しません。</p>
+          <ul><li>小型 約3.1GB／通常 約5.0GB</li><li>取得後はオフライン動作</li><li>手動で別のモデルへ変更も可能</li></ul>
+        </article>
+        <article class="model-card">
+          <p class="card-kicker">LOCAL</p>
+          <h3>Ollama</h3>
+          <p>すでにOllamaを使っているなら、そのまま接続先に指定できます。</p>
+        </article>
+        <article class="model-card">
+          <p class="card-kicker">CLOUD（任意）</p>
+          <h3>主要クラウドAI</h3>
+          <p>OpenAI・Anthropic（Claude）・Google Gemini・DeepSeek・xAI・Mistral、およびOpenAI互換API。APIキーは設定画面で登録し、Windowsでは暗号化して保存します。</p>
+          <ul><li>各社の利用料が発生します</li><li>使うと決めたときだけ送信されます</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section voice" id="voice">
+      <div class="section-heading centered">
+        <p class="eyebrow">VOICE</p>
+        <h2>声で返ってくると、<br>もっと「いる」感じがする。</h2>
+      </div>
+      <div class="voice-grid">
+        <article><h3>読み上げ</h3><p>同梱の音声エンジンで返事を読み上げます。キャラごとに声を選べて、口パクも実際の声量に合わせて動きます。既定はオフなので、静かに使いたいときはそのままで大丈夫です。</p></article>
+        <article><h3>音声入力</h3><p>マイクから話しかけられます。文字起こしはPCの中で行うため、音声を外部へ送りません。</p></article>
+        <article><h3>ふれあい</h3><p>クリックやなでなでに反応し、関係性の記録と長期記憶で、話した内容や呼びかたを覚えていきます。</p></article>
+      </div>
+    </section>
+
     <section class="section showcase">
       <div class="showcase-copy">
         <p class="eyebrow">YOUR CHARACTER, YOUR SPACE</p>
@@ -156,7 +240,14 @@
           <div><span>CHAT</span><h3>チャットレイアウト</h3><p>会話に集中できる、読みやすい縦型画面。</p></div>
         </article>
       </div>
-      <p class="layout-more">ほかにも ペット・マスコット・会話・バー・ウィジェット を収録</p>
+      <div class="layout-rest" aria-label="そのほかの表示形式">
+        <figure><img src="assets/layout-pet.webp" alt="標準のペット表示" width="480" height="320" loading="lazy" decoding="async"><figcaption><b>ペット</b>キャラと吹き出しだけの基本形。</figcaption></figure>
+        <figure><img src="assets/layout-mascot.webp" alt="縦長のマスコット表示" width="360" height="560" loading="lazy" decoding="async"><figcaption><b>マスコット</b>全身を大きく見せる縦長。</figcaption></figure>
+        <figure><img src="assets/layout-talk.webp" alt="メッセージアプリ風のトーク表示" width="480" height="620" loading="lazy" decoding="async"><figcaption><b>トーク</b>メッセージアプリのような会話画面。</figcaption></figure>
+        <figure><img src="assets/layout-bar.webp" alt="横長のバー表示" width="640" height="200" loading="lazy" decoding="async"><figcaption><b>バー</b>画面の端に置ける横長。</figcaption></figure>
+        <figure><img src="assets/layout-widget.webp" alt="小さなウィジェット表示" width="360" height="300" loading="lazy" decoding="async"><figcaption><b>ウィジェット</b>邪魔しない最小サイズ。</figcaption></figure>
+      </div>
+      <p class="layout-more">表示形式ごとに、ウィンドウの大きさとキャラの構図を別々に覚えます。右クリックまたは設定画面から、いつでも切り替えられます。</p>
     </section>
 
     <section class="section privacy-panel" id="safety">
@@ -171,6 +262,19 @@
         <div><b>オフラインでも起動</b><span>取得や更新確認を見送り、不要なエラー画面を出しません。</span></div>
       </div>
       <a class="text-link" href="privacy.html">プライバシーの詳細を見る <span aria-hidden="true">→</span></a>
+    </section>
+
+    <section class="section developer" id="developer">
+      <div class="section-heading">
+        <p class="eyebrow">FOR DEVELOPERS</p>
+        <h2>外から叩ける。<br>外のツールも取り込める。</h2>
+        <p>デスクトップペットとしてだけでなく、手元のAIエージェント基盤としても使えます。どちらも既定では無効で、使うと決めたときだけ有効にします。</p>
+      </div>
+      <div class="dev-grid">
+        <article><h3>ローカルHTTP API</h3><p>127.0.0.1のみで待ち受け、トークン認証付き。Ollama風の <code>/api/chat</code>、OpenAI互換の <code>/v1/chat/completions</code> に対応するので、既存のクライアントからそのまま呼べます。</p></article>
+        <article><h3>MCP サーバー</h3><p><code>/mcp</code> でPicoAgentのスキルをMCPツールとして公開できます。ほかのAIクライアントから、このPCのスキルを使えます。</p></article>
+        <article><h3>MCP クライアント</h3><p>外部のMCPサーバーを登録すると、そのツールがPicoAgentのスキル一覧へ自動で加わります。会話からそのまま呼び出せます。</p></article>
+      </div>
     </section>
 
     <section class="section plans" id="plans">
@@ -206,7 +310,7 @@
           <span class="button disabled full" aria-disabled="true">販売開始を準備中</span>
         </article>
       </div>
-      <p class="plan-note">全機能開放はベータ版限定です。Steam版、価格、正式版の提供機能・販売条件は、販売開始時の案内をご確認ください。</p>
+      <p class="plan-note">全機能開放はベータ版限定です。Steam版、価格、正式版の提供機能・販売条件は、販売開始時の案内をご確認ください。ダウンロード販売のデジタル商品のため、購入後の返品・キャンセル・返金は一切お受けしていません。まず無料のベータ版で動作をご確認ください。</p>
     </section>
 
     <section class="section guide" id="guide">
@@ -241,6 +345,40 @@
         <div><dt>アップデート</dt><dd>設定画面から確認・実行できます。取得したインストーラはサイズとSHA-256を検証します。</dd></div>
       </dl>
       <div class="notice-links"><a href="support.html">導入・サポート</a><a href="terms.html">利用条件</a><a href="privacy.html">プライバシー</a></div>
+    </section>
+
+    <section class="section beta-limits" id="beta">
+      <div class="section-heading centered">
+        <p class="eyebrow">BETA STATUS</p>
+        <h2>今の時点で、できないこと。</h2>
+        <p>開発中のベータ版なので、先に正直にお伝えします。</p>
+      </div>
+      <ul class="limit-list">
+        <li><b>Windows版のみ</b>macOS版は、macOS上でのビルドと実機確認を終えてから公開します。</li>
+        <li><b>コード署名なし</b>初回起動時にWindows SmartScreenの警告が出ることがあります。配布URLを確認してから実行してください。</li>
+        <li><b>更新は手動確認</b>設定画面から更新を確認して実行します。自動更新は正式版で対応します。</li>
+        <li><b>初回のダウンロードが大きい</b>本体に加えてAIモデルを取得します（小型 約3.1GB／通常 約5.0GB）。</li>
+        <li><b>仕様が変わります</b>ベータ期間中は機能・画面・設定が変更される場合があります。大事なデータのバックアップをおすすめします。</li>
+        <li><b>1枚絵からのキャラ制作は試験機能</b>制作用のコンポーネントを別途導入する必要があり、入力する絵とPC環境で仕上がりが変わります。</li>
+      </ul>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-heading centered">
+        <p class="eyebrow">FAQ</p>
+        <h2>よくある質問</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>インターネットに繋がっていなくても使えますか？</summary><p>初回にAIモデルを取得したあとは、ローカルAIとの会話をオフラインで続けられます。Web検索や外部サービス連携など、通信が必要なスキルだけが使えなくなります。オフライン時に更新確認やエラー画面は出しません。</p></details>
+        <details><summary>会話やデータはどこに保存されますか？</summary><p>設定・会話履歴・長期記憶・関係性・実行履歴・追加したキャラクター・取得したAIモデルは、すべてお使いのPC内に保存されます。APIキーなどの秘密の値は、Windowsでは同じWindowsユーザーだけが復号できる形で暗号化して保存します。アンインストール時に削除するかどうかは選べます。</p></details>
+        <details><summary>自分のキャラクターを追加できますか？</summary><p>できます。連番PNGのキャラクターパックと、Live2D（Cubism 4 / 5）モデルの読み込みに対応しています。追加した素材の利用条件は、利用者ご自身でご確認ください。PicoAgentを使うことで新たな利用許諾が生じるものではありません。</p></details>
+        <details><summary>Live2Dのモデルは付属しますか？</summary><p>付属しません。紹介画面や動画で使用しているモデルは、条件を確認したうえで表示例として使っている公式サンプルです。ご自身が利用権を持つモデルを読み込んでお使いください。</p></details>
+        <details><summary>AIモデルは変更できますか？</summary><p>できます。同梱ローカルAIのモデルを一覧から選び直すほか、Ollamaや主要クラウドAIへ接続先を切り替えられます。クラウドAIを使う場合は各社の利用料が発生します。</p></details>
+        <details><summary>勝手にファイルを消したりしませんか？</summary><p>しません。ファイル操作は許可したフォルダの中だけで行い、削除に相当する操作は必ずOSのゴミ箱へ移動します。<code>rm</code> や <code>Remove-Item</code> のような物理削除コマンドは、コマンド実行や予約実行の経路でも拒否します。WindowsやProgram Filesの領域は常に対象外です。</p></details>
+        <details><summary>ベータ版と正式版の違いは？</summary><p>ベータ版は期間中の全機能試用として配布しています。正式版ではFree／Proの機能区分を有効にする予定です。区分の内容と価格は、販売開始時にご案内します。</p></details>
+        <details><summary>購入後の返品・キャンセル・返金はできますか？</summary><p>ダウンロード販売のデジタル商品のため、購入手続きの完了後は理由を問わず返品・キャンセル・返金を一切お受けしていません。だからこそ、購入前に無料の開発中ベータ版でご自身のPCでの動作と使い心地を必ずご確認ください。動作環境と必要な空き容量はこのページに記載しています。</p></details>
+        <details><summary>アンインストールはどうしますか？</summary><p>Windowsの「アプリと機能」から削除できます。削除時に、設定や会話履歴などのデータを残すか消すかを選べます。PicoAgentが取得した同梱物は専用フォルダにまとめてあり、ほかのソフトの導入先には触れません。</p></details>
+      </div>
     </section>
 
     <section class="final-cta">
