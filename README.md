@@ -26,7 +26,7 @@ Live2Dの「ひより」は動作例です。ほかのモデルは下の一覧�
 |---|---|---|
 | ![レン通常](assets/character-ren.webp)<br>![レン配信](assets/character-ren-stream.webp) | ![ライス通常](assets/character-rice.webp)<br>![ライス配信](assets/character-rice-stream.webp) | ![わんこ通常](assets/character-wanko.webp)<br>![わんこ配信](assets/character-wanko-stream.webp) |
 
-各プレビューは通常表示と配信表示を960px・134フレーム／16fpsで撮影しています。通常版は実画面を2倍密度で描画し、配信版はネイティブ1560px画面から縮小しており、旧480px動画の引き伸ばしではありません。会話→考え中→成功→待機の3切替だけに抑え、まばたきと口パクを自然に見せます。ライスは元モデルに口パラメータがないため口パク非対応です。本作品のキャラクターには株式会社Live2Dの著作物が用いられています。利用前に[サンプルデータ利用条件](https://www.live2d.com/learn/sample/model-terms/)を確認してください。
+各プレビューは通常表示と配信表示を960px・134フレーム／16fpsで撮影しています。通常版は実画面を2倍密度で描画し、配信版はネイティブ1920×1080のフルHD画面から縮小しており、旧480px動画の引き伸ばしではありません。会話→考え中→成功→待機の3切替だけに抑え、まばたきと口パクを自然に見せます。ライスは元モデルに口パラメータがないため口パク非対応です。本作品のキャラクターには株式会社Live2Dの著作物が用いられています。利用前に[サンプルデータ利用条件](https://www.live2d.com/learn/sample/model-terms/)を確認してください。
 
 ## 付属キャラクター
 
@@ -41,6 +41,14 @@ Live2Dの「ひより」は動作例です。ほかのモデルは下の一覧�
 | **実写（試作）** — 実写調で制作した成人キャラクター | ![実写通常](assets/character-photoreal-prototype.webp) | ![実写配信](assets/character-photoreal-prototype-stream.webp) |
 
 全7体が、まばたき、口パク、視線、喜び／悲しみ、待機モーションに対応します。さらに、利用権を持つ1枚絵から17キーポーズ・42フレームの2Dキャラを作る試験機能もあります。制作コンポーネントは必要時に別途導入し、入力絵や環境により仕上がりは変わります。
+
+### VRM実験キャラクター
+
+| キャラクター | 通常表示 | 配信表示 |
+|---|---|---|
+| **むぎ VRM（実験）** — 正式なむぎとは別の検証キャラ | ![むぎVRM通常](assets/character-mugi-vrm-experimental.webp) | ![むぎVRM配信](assets/character-mugi-vrm-experimental-stream.webp) |
+
+Three.js／three-vrmで胸上表示、まばたき、口パク、視線、表情、揺れ物を検証しています。実験枠のため付属7体の数には含めません。
 
 ## 機能一覧
 
