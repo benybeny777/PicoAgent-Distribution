@@ -1,0 +1,4 @@
+interface:
+  display_name: "PicoAgent配布公開"
+  short_description: "LP・Release・更新情報を安全に同期して公開する"
+  default_prompt: "$publish-picoagent-distributionを使い、現在のPicoAgentベータ版を公開して検証してください。"
