@@ -22,11 +22,11 @@ Live2Dの「ひより」は動作例です。ほかのモデルは下の一覧�
 |---|---|---|---|
 | ![ひより通常](assets/character-hiyori.webp)<br>![ひより配信](assets/character-hiyori-stream.webp) | ![はる通常](assets/character-haru.webp)<br>![はる配信](assets/character-haru-stream.webp) | ![イプシロン通常](assets/character-epsilon.webp)<br>![イプシロン配信](assets/character-epsilon-stream.webp) | ![まお通常](assets/character-mao.webp)<br>![まお配信](assets/character-mao-stream.webp) |
 
-| レン（通常／配信） | ライス（通常／配信） | わんこ（通常／配信） |
-|---|---|---|
-| ![レン通常](assets/character-ren.webp)<br>![レン配信](assets/character-ren-stream.webp) | ![ライス通常](assets/character-rice.webp)<br>![ライス配信](assets/character-rice-stream.webp) | ![わんこ通常](assets/character-wanko.webp)<br>![わんこ配信](assets/character-wanko-stream.webp) |
+| ライス（通常／配信） | わんこ（通常／配信） |
+|---|---|
+| ![ライス通常](assets/character-rice.webp)<br>![ライス配信](assets/character-rice-stream.webp) | ![わんこ通常](assets/character-wanko.webp)<br>![わんこ配信](assets/character-wanko-stream.webp) |
 
-各プレビューは通常表示と配信表示を960px・360フレーム／30fps（12秒）で撮影しています。通常版は実画面を2倍密度で描画し、配信版はネイティブ1920×1080のフルHD画面から縮小しており、旧480px動画の引き伸ばしではありません。音声同期の口パク→考え中→成功→悲しみ→左右視線→待機を間隔を空けて見せます。ライスは元モデルに口パラメータがないため口パク非対応です。本作品のキャラクターには株式会社Live2Dの著作物が用いられています。利用前に[サンプルデータ利用条件](https://www.live2d.com/learn/sample/model-terms/)を確認してください。
+各プレビューは通常表示と配信表示をLP用6秒・480px・16fpsで実画面から直接撮影しています。通常版は実画面を2倍密度で描画し、配信版はネイティブ1920×1080のフルHD画面から縮小しており、既存動画の再エンコードではありません。音声同期の口パクを十分見せてから、考え中、待機へ戻ります。ライスは元モデルに口パラメータがないため口パク非対応です。本作品のキャラクターには株式会社Live2Dの著作物が用いられています。利用前に[サンプルデータ利用条件](https://www.live2d.com/learn/sample/model-terms/)を確認してください。
 
 ## 付属キャラクター
 
