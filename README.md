@@ -1,9 +1,9 @@
-# PicoAgent v1.0.1 Beta
+# PicoAgent v1.0.2 Beta
 
 PicoAgentは、キャラクターと会話しながらPC作業も手伝ってもらえるデスクトップペットです。付属の2Dキャラに加え、利用権を持つPNG／Live2Dモデルを追加できます。既定のローカルAIでは会話をPC内で処理します。
 
 > [!WARNING]
-> 現在公開しているものは**PicoAgent v1.0.1 Beta**です。不具合、仕様変更、設定の互換性変更が入る可能性があります。大切なデータはバックアップし、試用目的でお使いください。Windows版は未署名のためSmartScreen警告が表示される場合があります。
+> 現在公開しているものは**PicoAgent v1.0.2 Beta**です。不具合、仕様変更、設定の互換性変更が入る可能性があります。大切なデータはバックアップし、試用目的でお使いください。Windows版は未署名のためSmartScreen警告が表示される場合があります。
 
 > [!NOTE]
 > **ベータ期間中はPicoAgentの全機能を試用できます。** 正式リリース時はFree／Proの機能区分を有効にします。外部APIの利用料や、選択した追加コンポーネントの導入条件は別途適用されます。
@@ -38,9 +38,9 @@ Live2Dの「ひより」は動作例です。ほかのモデルは下の一覧�
 | **こはる** — 親しみやすい作業相棒 | ![こはる通常](assets/character-koharu.webp) | ![こはる配信](assets/character-koharu-stream.webp) |
 | **セナ** — 凛とした歌姫系作業相棒 | ![セナ通常](assets/character-sena.webp) | ![セナ配信](assets/character-sena-stream.webp) |
 | **ノア** — 上品な吸血姫風メイド | ![ノア通常](assets/character-noa.webp) | ![ノア配信](assets/character-noa-stream.webp) |
-| **実写2Dテスト** — 150フレームと目・口7段階を持つ成人キャラクター | ![実写通常](assets/character-photoreal-prototype.webp) | ![実写配信](assets/character-photoreal-prototype-stream.webp) |
+| **実写2Dテスト** — 84フレームと目・口7段階を持つ成人キャラクター | ![実写通常](assets/character-photoreal-prototype.webp) | ![実写配信](assets/character-photoreal-prototype-stream.webp) |
 
-全7体が、目7段階のまばたき、口7段階の口パク、視線、喜び／悲しみ、待機モーションに対応します。通常2Dは150フレームへ統一し、髪や服の動きも物理演算ではなく事前描画した連番で表現します。
+全7体が、目7段階のまばたき、口7段階の口パク、視線、喜び／悲しみ、待機モーションに対応します。6体は各42フレーム、実写2Dテストは84フレームです。実写2Dテストは髪・胸・肩・腰の8領域に実行時の局所バネ物理も併用します。
 
 低頭身2Dは上半身、長身・実写・Live2Dは胸全体がぎりぎり入る胸上、チャット／バーの小型アイコンは首上を初期構図にします。利用者が保存したキャラ別構図は初期値より優先します。
 
