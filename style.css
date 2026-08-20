@@ -318,11 +318,11 @@ body:not(.landing) > footer { padding: 32px 0 56px; color: var(--sub); font-size
 .skill-card h3 { margin: 0 0 10px; font-size: 16px; }
 .skill-card p { margin: 0; color: var(--sub); font-size: 12.5px; line-height: 1.85; }
 .skill-note { max-width: 760px; margin: 26px auto 0; color: var(--sub); font-size: 13px; text-align: center; }
-.model-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: start; }
-.model-card { padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; box-shadow: 0 15px 42px rgba(76, 50, 63, .06); }
+.model-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 18px; align-items: start; }
+.model-card { padding: 26px 24px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; box-shadow: 0 15px 42px rgba(76, 50, 63, .06); }
 .model-card.featured { border-color: rgba(181, 72, 98, .35); background: var(--pink-soft); }
 .model-card .card-kicker { color: var(--pink-dark); }
-.model-card h3 { margin: 10px 0 12px; font-size: 21px; }
+.model-card h3 { margin: 10px 0 12px; font-size: 19px; }
 .model-card p { margin: 0; color: var(--sub); font-size: 13.5px; }
 .model-card ul { margin: 14px 0 0; padding-left: 18px; color: var(--sub); font-size: 12.5px; line-height: 1.9; }
 .voice-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }

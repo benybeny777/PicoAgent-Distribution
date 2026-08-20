@@ -74,6 +74,7 @@ Live2Dの「ひより」は動作例です。ほかのモデルは下の一覧�
 |---|---|
 | 同梱ローカルAI（既定） | 推論エンジンを同梱。初回だけモデルを取得し、以後はオフラインでも会話できます |
 | Ollama | 既に導入済みのOllamaへ接続できます |
+| 手元のCLIエージェント | Claude CodeやCodex CLIをそのまま接続先に指定できます。導入とログインは利用者が行います |
 | クラウドAI（任意） | OpenAI、Anthropic（Claude）、Google Gemini、DeepSeek、xAI、Mistral、OpenAI互換API。各社の利用料が発生します |
 
 APIキー等はWindowsのDPAPIで暗号化して保存し、同じWindowsユーザーだけが復号できます。
