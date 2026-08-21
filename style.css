@@ -312,7 +312,7 @@ body:not(.landing) > footer { padding: 32px 0 56px; color: var(--sub); font-size
   .site-footer small { grid-column: auto; }
 }
 
-/* ── スキル一覧・AIモデル・声・開発者向け・ベータの制限・FAQ ───────────────── */
+/* ── スキル一覧・AIモデル・声・開発者向け・アルファの制限・FAQ ───────────────── */
 .skill-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
 .skill-card { padding: 22px; border: 1px solid var(--line); border-radius: 20px; background: #fff; box-shadow: 0 12px 32px rgba(76, 50, 63, .05); }
 .skill-card h3 { margin: 0 0 10px; font-size: 16px; }

@@ -1,5 +1,5 @@
 {
-  "notes": "PicoAgent v1.0.2 Beta（ローカルモデル保護・起動安定性・人格プロンプト混入対策を改善）",
+  "notes": "PicoAgent v1.0.2 Alpha（ローカルモデル保護・起動安定性・人格プロンプト混入対策を改善）",
   "platforms": {
     "macos-arm64": {
       "sha256": "",
