@@ -1,0 +1,23 @@
+{
+  "notes": "PicoAgent v1.0.2 Alpha（ローカルモデル保護・起動安定性・人格プロンプト混入対策を改善）",
+  "platforms": {
+    "macos-arm64": {
+      "sha256": "",
+      "size": 0,
+      "url": ""
+    },
+    "macos-x64": {
+      "sha256": "",
+      "size": 0,
+      "url": ""
+    },
+    "windows-x64": {
+      "sha256": "234cac3e685d712658b669cd03837bc9a9c2e91e64233122ac57ee0b5698b5a0",
+      "size": 400272773,
+      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.0.2/PicoAgent_1.0.2_x64-setup.exe"
+    }
+  },
+  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.0.2",
+  "schemaVersion": 1,
+  "version": "1.0.2"
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>サポート | PicoAgent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">PICOAGENT SUPPORT</div>
+    <h1>導入・サポート</h1>
+    <nav><a href="index.html">トップ</a><a href="privacy.html">プライバシー</a><a href="terms.html">利用条件</a></nav>
+  </header>
+  <main><article>
+    <h2>動作環境</h2>
+    <p>公開しているアルファ版はWindows 10/11（64bit）と、Apple SiliconのmacOS 11以上向けです。Intel Macは対象外です。Ubuntu Linux 24.04 LTS x64にも対応していますが、一般公開はこれからです。初回起動時にAIモデルを取得し、選択したAivis／Whisperは各公式配布元から直接取得するため、空き容量とインターネット接続が必要です。オフラインでも取得を見送り、PicoAgentの基本機能は起動します。</p>
+    <h2>追加機能</h2>
+    <p>PicoAgentは第三者ソフトを配布Repoから再配布しません。THA3、LibreOffice、文書・画像ツールは設定の「追加機能」に表示する各提供元のページから導入してください。</p>
+    <h2>アップデート</h2>
+    <p>設定の「製品情報・ライセンス」で更新を確認できます。新しいWindows版がある場合は「アップデート」を押すと、インストーラをダウンロードし、サイズとSHA-256を確認してから起動します。オフライン時は処理を見送ります。macOS版はアプリ内での適用に未対応のため、取得ページから新しいディスクイメージを入れ替えてください。</p>
+    <h2>macOSの初回起動</h2>
+    <p>アルファ版はコード署名と公証を行っていないため、そのまま開くとmacOSのGatekeeperが「開発元を確認できないため開けません」と表示します。ディスクイメージからPicoAgentをアプリケーションフォルダへコピーしたあと、初回だけアプリを右クリックして「開く」を選び、確認ダイアログで「開く」を押してください。2回目以降は通常どおり起動します。</p>
+    <h2>macOSの許可設定</h2>
+    <p>音声で話しかける場合はマイク、画面を見せる場合は画面収録、PC操作を任せる場合はアクセシビリティの許可が必要です。「システム設定 → プライバシーとセキュリティ」で許可してください。APIキーはログインキーチェーンへ預けるため、保存時と読み込み時に許可を求めることがあります。未署名アルファでは版を入れ替えるたびに再度求められます。</p>
+    <h2>公開バージョン</h2>
+    <p>公開リポジトリには現在の最新版のみ掲載しています。インストーラと変更点は<a href="https://github.com/benybeny777/PicoAgent-Distribution/releases">Releases</a>から確認できます。</p>
+    <p>戻す前に次を確認してください。アルファ期間中は設定や会話履歴の保存形式が変わることがあり、新しい版で保存したデータを古い版が読めない場合があります。<b>戻す場合は先にデータフォルダをバックアップしてください。</b>Windowsは<code>%APPDATA%\PicoAgent</code>、macOSはユーザーライブラリ配下のPicoAgentフォルダです。古い版へ戻したときの不具合は、戻した版と元の版の両方を添えて連絡してください。</p>
+    <h2>困ったとき</h2>
+    <ol>
+      <li>設定の「診断・修復」で状態を更新します。</li>
+      <li>設定の「追加機能」で公式取得元と準備状態を確認します。</li>
+      <li><a href="https://github.com/benybeny777/PicoAgent-Distribution/issues">公開GitHubのIssues</a>から、PicoAgentのバージョンと診断結果を添えて連絡してください。APIキー、トークン、会話全文、個人ファイルは送らないでください。</li>
+    </ol>
+    <h2>無料版</h2>
+    <p>正規のGitHub Releasesから取得できます。Windowsは未署名アプリのSmartScreen警告、macOSはGatekeeperの警告が表示されます。発行元と配布URLを確認してから実行してください。</p>
+  </article></main>
+  <footer>© 2026 PicoAgent</footer>
+</body>
+</html>

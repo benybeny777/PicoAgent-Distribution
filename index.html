@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="好きなキャラと会話し、PC作業まで任せられる。複数のAIに合議・分担させて答えを1つにまとめられる、ローカルAIで動くキャラクター型AIエージェント、PicoAgent。Windows版とApple Silicon向けmacOS版を公開中。">
+  <meta name="theme-color" content="#fff9f6">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PicoAgent | 好きなキャラと、PCを動かす。">
+  <meta property="og:description" content="会話からPC作業まで。複数AIの合議・分担にも対応した、自分の2D・Live2Dキャラを追加できるローカルAIエージェント。">
+  <title>PicoAgent | 好きなキャラと、PCを動かす。</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="landing">
+  <a class="skip-link" href="#main">本文へ移動</a>
+
+  <div class="site-shell">
+    <header class="site-header" aria-label="サイトヘッダー">
+      <a class="logo" href="#top" aria-label="PicoAgent トップ">
+        <span class="logo-mark" aria-hidden="true">P</span>
+        <span>PICOAGENT</span>
+      </a>
+      <nav class="site-nav" aria-label="ページ内ナビゲーション">
+        <a href="#features">できること</a>
+        <a href="#models">AIモデル</a>
+        <a href="#council">複数AI</a>
+        <a href="characters.html">キャラ</a>
+        <a href="#layouts">表示形式</a>
+        <a href="#guide">導入</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="button small" href="https://github.com/benybeny777/PicoAgent-Distribution/releases">アルファ版を取得</a>
+    </header>
+  </div>
+
+  <main id="main">
+    <section class="hero-section" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> LOCAL-FIRST DESKTOP COMPANION</p>
+        <h1>好きなキャラと、<br><em>PCを動かす。</em></h1>
+        <p class="hero-lead">話しかければ応えてくれる。必要なときは、PC作業まで任せられる。PicoAgentは、デスクトップペットとAIエージェントを組み合わせたキャラクター型AIです。開発中のWindows版 v1.0.2 Alphaと、Apple Silicon向けmacOS版 v1.0.4 Alphaを公開しています。</p>
+        <p class="alpha-full-note"><b>無料公開中</b> PicoAgentのすべての機能を使えます。</p>
+        <div class="actions hero-actions">
+          <a class="button primary" href="https://github.com/benybeny777/PicoAgent-Distribution/releases">アルファ版を取得</a>
+          <a class="button secondary" href="#features">できることを見る</a>
+        </div>
+        <p class="hero-platforms">Windows 10 / 11 (64bit) 向け v1.0.2と、Apple SiliconのmacOS 11以上向け v1.0.4を公開中。Intel Macは対象外です。</p>
+        <ul class="trust-list" aria-label="主な特徴">
+          <li><span aria-hidden="true">✓</span> 会話は既定でPC内</li>
+          <li><span aria-hidden="true">✓</span> 2D・Live2D対応</li>
+          <li><span aria-hidden="true">✓</span> 複数AIの合議・分担</li>
+          <li><span aria-hidden="true">✓</span> Windows版・Apple Silicon向けmacOS版を公開中</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-label="PicoAgentの実画面">
+        <div class="visual-glow" aria-hidden="true"></div>
+        <div class="screen-card main-screen">
+          <div class="screen-top"><span></span><span></span><span></span><b>会話</b></div>
+          <picture>
+            <source media="(prefers-reduced-motion: reduce)" srcset="assets/main-static.png">
+            <img src="assets/main-light.webp" alt="吹き出しと2Dキャラクターを表示したPicoAgentのメイン画面" width="540" height="410" decoding="async" fetchpriority="high">
+          </picture>
+        </div>
+        <div class="floating-card local-card"><span class="status-dot"></span><span><b>ローカルAI</b><small>PCの中で会話</small></span></div>
+        <div class="floating-card voice-card"><span class="motion-mark" aria-hidden="true">↝</span><span><b>むぎ · 2Dアニメーション</b><small>表情と仕草で動く</small></span></div>
+        <p class="visual-note">本当に画面にいる、という距離感。</p>
+      </div>
+    </section>
+
+    <section class="section intro" id="features">
+      <div class="section-heading centered">
+        <p class="eyebrow">MORE THAN A CUTE CHARACTER</p>
+        <h2>かわいいだけじゃない。<br>毎日のPCに、ちゃんと役立つ。</h2>
+        <p>雑談するときも、作業を任せたいときも。同じキャラが、自然にそばにいます。</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card coral">
+          <div class="feature-icon" aria-hidden="true">♡</div>
+          <p class="card-kicker">TALK</p>
+          <h3>話す</h3>
+          <p>テキストでも音声でも会話できます。キャラごとの人格や声を設定し、読み上げと口パクも連動します。</p>
+        </article>
+        <article class="feature-card mint">
+          <div class="feature-icon" aria-hidden="true">✦</div>
+          <p class="card-kicker">HELP</p>
+          <h3>手伝う</h3>
+          <p>ファイル整理、予定、要約など、必要な機能を選んで追加。許可した範囲だけを扱う設計です。</p>
+        </article>
+        <article class="feature-card lavender">
+          <div class="feature-icon" aria-hidden="true">◇</div>
+          <p class="card-kicker">CUSTOMIZE</p>
+          <h3>自分らしくする</h3>
+          <p>自作の2D画像や、利用権を持つLive2Dモデルを追加。キャラやフキダシを見たまま配置し、背景、声まで好みに合わせられます。</p>
+        </article>
+      </div>
+      <ul class="feature-list" aria-label="機能一覧">
+        <li>テキスト／音声会話</li><li>読み上げ・口パク・まばたき</li><li>視線・表情</li>
+        <li>7つの表示形式</li><li>見たまま配置・構図保存</li><li>PNG／Live2D追加</li>
+        <li>ローカルAI</li><li>複数AIの合議・分担</li><li>ファイル・予定・要約</li><li>任意の外部連携</li>
+      </ul>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading centered">
+        <p class="eyebrow">70 SKILLS</p>
+        <h2>「できること」は、<br>70種のスキルで増えていく。</h2>
+        <p>頼めることは雑談だけではありません。PicoAgentは目的ごとのスキルを持っていて、会話の中から必要なものだけを自分で選んで実行します。外部サービスを使うスキルは、あなたが設定して有効にしたものだけが動きます。</p>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>毎日の習慣</h3>
+          <p>時刻・天気・目覚まし・リマインダー・集中タイマー・ToDo・今日のまとめ・ほめログ・ニュース・RSS・為替・株価</p>
+        </article>
+        <article class="skill-card">
+          <h3>ファイルと文書</h3>
+          <p>読み書き・検索（ファイル名／全文）・作業フォルダ整理・PDF編集・Office文書・形式変換・画像の確認と加工・ノートブック編集</p>
+        </article>
+        <article class="skill-card">
+          <h3>PC操作</h3>
+          <p>アプリ起動・ウィンドウ操作・クリップボード・コマンド実行・長時間ジョブ・予約実行（cron風）・コード実行</p>
+        </article>
+        <article class="skill-card">
+          <h3>Webと調べもの</h3>
+          <p>Web検索・ページ取得・ブラウザ操作・調査レポート作成・プロジェクト単位の情報整理</p>
+        </article>
+        <article class="skill-card">
+          <h3>連絡とタスク管理</h3>
+          <p>Gmail・Slack・Discord・GitHub・Notion・Jira・Linear・Trello・Todoist・Googleカレンダー／ドライブ／ドキュメント／スプレッドシート／ToDo・Microsoft Graph</p>
+        </article>
+        <article class="skill-card">
+          <h3>SNS</h3>
+          <p>X・Bluesky・Mastodon・Misskey・Reddit・LinkedIn</p>
+        </article>
+        <article class="skill-card">
+          <h3>音声と記録</h3>
+          <p>会議の録音・ローカル文字起こし（Whisper）・議事録づくり</p>
+        </article>
+        <article class="skill-card">
+          <h3>つくる</h3>
+          <p>ComfyUI・Stable Diffusion系・OpenAI画像生成・ComfyUI構成に応じた動画生成・制作ワークスペース</p>
+        </article>
+      </div>
+      <p class="skill-note">スキルは会話の内容から自動で選ばれます。ファイル操作は許可した範囲だけ、削除相当は必ずゴミ箱へ。外部サービス連携は、鍵やトークンを設定した分だけ有効になります。</p>
+    </section>
+
+    <section class="section models" id="models">
+      <div class="section-heading centered">
+        <p class="eyebrow">CHOOSE YOUR AI</p>
+        <h2>頭脳は、あとから選べる。</h2>
+        <p>既定は同梱のローカルAIです。初回だけモデルを取得すれば、以後はオフラインでも会話できます。もっと賢くしたくなったら、設定から接続先を切り替えるだけ。<a class="text-link" href="#council">1体に決めず、複数のAIへ合議・分担させる</a>こともできます。</p>
+      </div>
+      <div class="model-grid">
+        <article class="model-card featured">
+          <p class="card-kicker">DEFAULT</p>
+          <h3>同梱ローカルAI</h3>
+          <p>推論エンジンを同梱。PCのメモリ／VRAMの目安から自動でモデルを選び、初回だけダウンロードします。会話内容は外部へ送信しません。</p>
+          <ul><li>小型 約3.1GB／通常 約5.0GB</li><li>取得後はオフライン動作</li><li>手動で別のモデルへ変更も可能</li></ul>
+        </article>
+        <article class="model-card">
+          <p class="card-kicker">CLI</p>
+          <h3>手元のCLIエージェント</h3>
+          <p>Claude CodeやCodex CLIへ、各サービスでログインした状態のまま接続できます。対応するサブスクリプションの利用者は、別途APIキーを登録せずに使えます。</p>
+          <ul><li>APIの従量課金を使わず接続可能</li><li>各サービスのプランと利用上限が適用されます</li></ul>
+        </article>
+        <article class="model-card">
+          <p class="card-kicker">CLOUD（任意）</p>
+          <h3>主要クラウドAI</h3>
+          <p>OpenAI・Anthropic（Claude）・Google Gemini・DeepSeek・xAI・Mistral、およびOpenAI互換API。APIキーは設定画面で登録し、Windowsでは暗号化して保存します。</p>
+          <ul><li>各社の利用料が発生します</li><li>使うと決めたときだけ送信されます</li></ul>
+        </article>
+      </div>
+      <p class="skill-note"><b>開発中:</b> FreeTokenを使い、GPUのVRAM容量を超えるモデルも利用できるよう対応を進めています。現在の公開版にはまだ含まれません。</p>
+    </section>
+
+    <section class="section council" id="council">
+      <div class="section-heading centered">
+        <p class="eyebrow">MULTI-AI COUNCIL</p>
+        <h2>ひとつのAIで迷うなら、<br>何体かに、話し合わせる。</h2>
+        <p>同じ質問を複数のAIへ同時に投げて、まとめ役のAIが答えを突き合わせます。作業そのものを割り振らせることもできます。参加させるのは、同梱ローカルAIでも、クラウドAIでも、手元のCLIエージェントでも構いません。</p>
+      </div>
+      <div class="model-grid">
+        <article class="model-card">
+          <p class="card-kicker">SINGLE</p>
+          <h3>単一AI</h3>
+          <p>いつもどおり、選んだAIが1体で答えます。いちばん速く、外部AIの利用も最小なので、これが既定です。</p>
+        </article>
+        <article class="model-card featured">
+          <p class="card-kicker">CONSENSUS</p>
+          <h3>合議して統合</h3>
+          <p>同じ質問を全員へ送り、まとめ役が正確さ・具体性・抜けを見比べて、良いところをつないだ答えを1つ返します。</p>
+          <ul><li>1体では気づかない抜けを拾える</li><li>答えは選んでいるキャラの口調で返る</li></ul>
+        </article>
+        <article class="model-card">
+          <p class="card-kicker">COLLABORATE</p>
+          <h3>分担して統合</h3>
+          <p>まとめ役が仕事を割り振り、各AIの結果を1つにまとめます。調べものと下書きを同時に進めたいときに。</p>
+        </article>
+        <article class="model-card">
+          <p class="card-kicker">DIVIDE</p>
+          <h3>分担して個別に</h3>
+          <p>割り振った結果を、まとめずにAIごとへ並べて返します。見比べて自分で選びたいときに。</p>
+        </article>
+      </div>
+      <p class="skill-note">参加させるAIは2〜8体。AIごとに接続先・モデルと「担当の希望」を決められて、空欄なら自動で割り振ります。同梱ローカルAI同士は順番に、そのほかは設定した数まで同時に動きます。参加した数だけ推論と外部AIの利用が増えて時間もかかるため、既定は単一AIのままです。途中で止めることもできます。</p>
+    </section>
+
+    <section class="section voice" id="voice">
+      <div class="section-heading centered">
+        <p class="eyebrow">VOICE</p>
+        <h2>声で返ってくると、<br>もっと「いる」感じがする。</h2>
+      </div>
+      <div class="voice-grid">
+        <article><h3>読み上げ</h3><p>同梱の音声エンジンで返事を読み上げます。キャラごとに声を選べて、口パクも実際の声量に合わせて動きます。既定はオフなので、静かに使いたいときはそのままで大丈夫です。</p></article>
+        <article><h3>音声入力</h3><p>マイクから話しかけられます。文字起こしはPCの中で行うため、音声を外部へ送りません。</p></article>
+        <article><h3>ふれあい</h3><p>クリックやなでなでに反応し、関係性の記録と長期記憶で、話した内容や呼びかたを覚えていきます。</p></article>
+      </div>
+    </section>
+
+    <section class="section showcase">
+      <div class="showcase-copy">
+        <p class="eyebrow">YOUR CHARACTER, YOUR SPACE</p>
+        <h2>いつものキャラが、<br>あなたの画面へ。</h2>
+        <p>完成済み2Dキャラの「むぎ」ですぐに始めることも、自分で用意したキャラを追加することもできます。画面例ではLive2Dの「ひより」も紹介していますが、配布物へモデル素材は同梱せず、利用者が権利を持つモデルを読み込む方式です。</p>
+        <ul class="check-list">
+          <li>PNGキャラはアニメーション表示に対応</li>
+          <li>Cubism 4 / 5モデルを自動判定または手動選択</li>
+          <li>キャラごとに人格・声・表示位置を保存</li>
+        </ul>
+        <p class="fine-print">モデルや素材は、利用条件を確認し、追加・利用する権利のあるものをお使いください。</p>
+      </div>
+      <figure class="live2d-frame">
+        <div class="frame-label"><span class="status-dot"></span> HIYORI · LIVE2D MOTION</div>
+        <picture>
+          <source media="(prefers-reduced-motion: reduce)" srcset="assets/live2d-static.png">
+          <img src="assets/live2d-motion.webp" alt="ひよりがまばたき、口パク、返答モーションで動くPicoAgentのLive2D画面" width="550" height="410" loading="lazy" decoding="async">
+        </picture>
+        <div class="motion-chips" aria-label="動作内容"><span>まばたき</span><span>口パク</span><span>返答モーション</span></div>
+        <figcaption class="license-note">本作品のキャラクターには株式会社Live2Dの著作物が用いられています。<a href="https://www.live2d.com/learn/sample/model-terms/">サンプルデータ利用条件</a></figcaption>
+      </figure>
+    </section>
+
+    <section class="section characters" id="characters">
+      <div class="section-heading centered">
+        <p class="eyebrow">7 INCLUDED CHARACTERS</p>
+        <h2>気分に合う相棒から、始めよう。</h2>
+        <p>アルファ版に付属する7体は、まばたき、口パク、視線、喜び／悲しみ、待機モーションに対応しています。</p>
+      </div>
+      <div class="character-grid character-grid-preview">
+        <article class="character-card"><img src="assets/character-mugi.webp" alt="むぎのモーションプレビュー" loading="lazy" decoding="async"><div><h3>むぎ</h3><p>明るく寄り添う作業相棒</p></div></article>
+        <article class="character-card"><img src="assets/character-sena.webp" alt="セナのモーションプレビュー" loading="lazy" decoding="async"><div><h3>セナ</h3><p>凛とした歌姫系</p></div></article>
+        <article class="character-card"><img src="assets/character-noa.webp" alt="ノアのモーションプレビュー" loading="lazy" decoding="async"><div><h3>ノア</h3><p>上品な吸血姫風メイド</p></div></article>
+        <article class="character-card"><img src="assets/character-photoreal-prototype.webp" alt="実写2Dテストキャラのモーションプレビュー" loading="lazy" decoding="async"><div><h3>実写2Dテスト</h3><p>84フレームと目・口7段階</p></div></article>
+      </div>
+      <p class="character-more"><a class="button secondary" href="characters.html">付属7体＋Live2D 7体を見る</a></p>
+      <aside class="creator-note">
+        <span aria-hidden="true">✦</span><div><h3>自分の1枚絵も、動く2Dキャラへ。</h3><p>利用権を持つ透過PNGから、7段階のまばたき・口パク、視線、表情、事前描画した髪の動きを持つ2Dキャラを作れます。高品質試作は84フレームで検証しています。</p></div>
+      </aside>
+    </section>
+
+    <section class="section layouts" id="layouts">
+      <div class="section-heading">
+        <p class="eyebrow">7 LAYOUTS</p>
+        <h2>居場所も、使い方も、<br>ワンクリックで切り替え。</h2>
+      <p>小さなキャラクター表示から、配信画面、LINE風チャットまで。目的に合う7つの表示形式を用意しています。</p>
+      </div>
+      <div class="layout-gallery">
+        <article class="layout-card wide">
+          <img src="assets/layout-stream.webp" alt="フルHD配信スタジオ風の配信レイアウト" width="640" height="360" loading="lazy" decoding="async">
+          <div><span>STREAM</span><h3>配信レイアウト</h3><p>1920×1080の背景、ディスプレイ、日時、テロップをまとめたVTuber風画面。</p></div>
+        </article>
+        <article class="layout-card">
+          <img src="assets/layout-workspace.webp" alt="会話、入力、キャラクターを並べた作業レイアウト" width="640" height="389" loading="lazy" decoding="async">
+          <div><span>WORKSPACE</span><h3>作業レイアウト</h3><p>履歴と入力欄を広く使い、キャラも見えるデスク型。</p></div>
+        </article>
+        <article class="layout-card">
+          <img src="assets/layout-chat.webp" alt="LINE風の縦長チャットレイアウト" width="480" height="702" loading="lazy" decoding="async">
+          <div><span>CHAT</span><h3>LINE風チャット</h3><p>左右の白／緑吹き出しで会話の流れを追える縦型画面。</p></div>
+        </article>
+      </div>
+      <div class="layout-rest" aria-label="そのほかの表示形式">
+        <figure><img src="assets/layout-pet.webp" alt="標準のペット表示" width="480" height="320" loading="lazy" decoding="async"><figcaption><b>ペット</b>キャラと吹き出しだけの基本形。</figcaption></figure>
+        <figure><img src="assets/layout-mascot.webp" alt="縦長のマスコット表示" width="360" height="560" loading="lazy" decoding="async"><figcaption><b>マスコット</b>上半身のキャラを見せる縦長。</figcaption></figure>
+        <figure><img src="assets/layout-bar.webp" alt="横長のバー表示" width="640" height="200" loading="lazy" decoding="async"><figcaption><b>バー</b>画面の端に置ける横長。</figcaption></figure>
+        <figure><img src="assets/layout-widget.webp" alt="小さなウィジェット表示" width="360" height="300" loading="lazy" decoding="async"><figcaption><b>ウィジェット</b>邪魔しない最小サイズ。</figcaption></figure>
+      </div>
+      <p class="layout-more">「配置」モードではOBSのようにキャラ、フキダシ、入力欄などを直接ドラッグ・拡大縮小できます。表示形式ごとに配置とウィンドウサイズを覚え、右クリックまたは設定画面からいつでも切り替えられます。</p>
+    </section>
+
+    <section class="section privacy-panel" id="safety">
+      <div class="privacy-heading">
+        <span class="shield" aria-hidden="true">✓</span>
+        <div><p class="eyebrow">LOCAL BY DEFAULT</p><h2>会話は、まずPCの中で。</h2></div>
+      </div>
+      <p class="privacy-lead">既定のローカルAIでは、会話内容を外部へ送信しません。クラウドAIや外部サービスを自分で選んだ場合だけ、その機能に必要な情報を接続先へ送ります。</p>
+      <div class="privacy-points">
+        <div><b>許可した場所だけ</b><span>ファイル操作は許可範囲を指定。削除相当はゴミ箱へ移動します。</span></div>
+        <div><b>連携は選択制</b><span>クラウドAIや外部サービスは任意。料金が発生する場合があります。</span></div>
+        <div><b>オフラインでも起動</b><span>取得や更新確認を見送り、不要なエラー画面を出しません。</span></div>
+      </div>
+      <a class="text-link" href="privacy.html">プライバシーの詳細を見る <span aria-hidden="true">→</span></a>
+    </section>
+
+    <section class="section developer" id="developer">
+      <div class="section-heading">
+        <p class="eyebrow">FOR DEVELOPERS</p>
+        <h2>外から叩ける。<br>外のツールも取り込める。</h2>
+        <p>キャラクターUIとしてだけでなく、手元のAIエージェント基盤としても使えます。どちらも既定では無効で、使うと決めたときだけ有効にします。</p>
+      </div>
+      <div class="dev-grid">
+        <article><h3>ローカルHTTP API</h3><p>127.0.0.1のみで待ち受け、トークン認証付き。<code>/api/chat</code>とOpenAI互換の<code>/v1/chat/completions</code>に対応するので、既存のクライアントからそのまま呼べます。</p></article>
+        <article><h3>MCP サーバー</h3><p><code>/mcp</code> でPicoAgentのスキルをMCPツールとして公開できます。ほかのAIクライアントから、このPCのスキルを使えます。</p></article>
+        <article><h3>MCP クライアント</h3><p>外部のMCPサーバーを登録すると、そのツールがPicoAgentのスキル一覧へ自動で加わります。会話からそのまま呼び出せます。</p></article>
+      </div>
+    </section>
+
+    <section class="section plans" id="plans">
+      <div class="section-heading centered">
+        <p class="eyebrow">START FREE</p>
+        <h2>すべての機能を、無料で試せます。</h2>
+        <p>開発中のアルファ版として公開しています。外部AIサービスを使う場合は各社の利用料が、追加コンポーネントを導入する場合は各配布元の条件が別途適用されます。</p>
+      </div>
+      <div class="plan-grid">
+        <article class="plan-card free">
+          <p class="plan-label">ALPHA · FULL ACCESS</p>
+          <h3>開発中アルファ版</h3>
+          <p class="price"><strong>¥0</strong><span>アルファ公開中</span></p>
+          <ul>
+            <li>ローカルAIとの会話・全キャラ機能</li>
+            <li>PC操作・ファイル編集・追加スキル</li>
+            <li>Office・外部サービス・MCP連携</li>
+            <li>ローカルAIなら取得後はオフラインで動作</li>
+          </ul>
+          <div class="actions">
+            <a class="button primary full" href="https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.0.2">Windows版 v1.0.2 Alphaをダウンロード</a>
+            <a class="button secondary full" href="https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.0.4">macOS版 v1.0.4 Alphaをダウンロード</a>
+          </div>
+          <p class="plan-archive"><b>macOS:</b> Apple Silicon（M1以降）向けです。Intel Macは対象外です。</p>
+          <p class="plan-archive">現在の最新版と変更点は <a href="https://github.com/benybeny777/PicoAgent-Distribution/releases">Releases</a> から確認できます。</p>
+        </article>
+      </div>
+      <p class="plan-note">開発中のアルファ版のため、機能・画面・設定が変更される場合があります。設定や会話履歴の保存形式が変わることがあるため、新しい版を使ったあとに古い版へ戻すと設定が読めなくなる場合があります。戻す前にデータフォルダをバックアップしてください。外部AIサービスや追加コンポーネントを使う場合は、各社・各配布元の条件と料金が適用されます。</p>
+    </section>
+
+    <section class="section guide" id="guide">
+      <div class="section-heading centered">
+        <p class="eyebrow">QUICK START</p>
+        <h2>3ステップで、すぐそばに。</h2>
+      </div>
+      <ol class="steps">
+        <li><span>01</span><div><h3>ダウンロード</h3><p>GitHub ReleasesからWindows版のインストーラ、またはApple Silicon向けmacOS版のディスクイメージを取得します。</p></div></li>
+        <li><span>02</span><div><h3>初回セットアップ</h3><p>使い方と追加機能を選び、ローカルAIモデルを取得します。</p></div></li>
+        <li><span>03</span><div><h3>キャラと話す</h3><p>入力または音声で話しかけます。設定はあとからいつでも変更できます。</p></div></li>
+      </ol>
+    </section>
+
+    <section class="section requirements">
+      <div class="requirements-heading">
+        <p class="eyebrow">BEFORE INSTALLING</p>
+        <h2>動作環境と大切なお知らせ</h2>
+        <p>ローカルAIのモデルにより、必要容量と速度は変わります。</p>
+      </div>
+      <div class="spec-grid" aria-label="動作スペック">
+        <article class="spec-card"><span>OS</span><h3>Windows / macOS / Ubuntu</h3><p>Windows 10・11 x64／macOS 11以上を公開中</p><small>macOSはApple Siliconのみ。Intel Macは対象外。Ubuntu 24.04 LTS x64は検証済み・公開前</small></article>
+        <article class="spec-card"><span>CPU</span><h3>CPUだけでも動作</h3><p>GPUなしでも利用可能</p><small>応答速度はモデルとCPUにより変わります</small></article>
+        <article class="spec-card"><span>メモリ</span><h3>RAM 8GB</h3><p>最低目安</p><small>通常推奨: 16GB</small></article>
+        <article class="spec-card"><span>GPU</span><h3>必須ではありません</h3><p>あれば自動で使います</p><small>WindowsはNVIDIA（CUDA）・AMD（ROCm）・Intel（SYCL）の対応機だけ自動で加速し、対象外は同梱Vulkan→CPU。UbuntuはVulkan、macOSはMetal。推奨VRAM 4GB</small></article>
+        <article class="spec-card"><span>容量</span><h3>本体 約400MB</h3><p>小型モデル: 約3.1GB</p><small>通常モデル: 約5.0GB</small></article>
+        <article class="spec-card"><span>通信</span><h3>初回取得時に必要</h3><p>AIモデル・追加機能・更新</p><small>取得後はローカル会話可能</small></article>
+      </div>
+      <dl class="requirement-notes">
+        <div><dt>アルファ版</dt><dd>Windows版 v1.0.2とApple Silicon向けmacOS版 v1.0.4を公開しています。Intel Macは対象外です。Ubuntu 24.04 LTS x64は検証済みで、一般公開前です。</dd></div>
+        <div><dt>未署名版</dt><dd>Windows版はSmartScreen、macOS版はGatekeeperの警告が表示されます。正規の配布URLを確認してから実行してください。</dd></div>
+        <div><dt>アップデート</dt><dd>設定画面から確認できます。取得したインストーラをアプリが検証して起動する自動適用は現在Windows版のみです。</dd></div>
+      </dl>
+      <div class="notice-links"><a href="support.html">導入・サポート</a><a href="terms.html">利用条件</a><a href="privacy.html">プライバシー</a></div>
+    </section>
+
+    <section class="section alpha-limits" id="alpha">
+      <div class="section-heading centered">
+        <p class="eyebrow">ALPHA STATUS</p>
+        <h2>今の時点で、できないこと。</h2>
+        <p>開発中のアルファ版なので、先に正直にお伝えします。</p>
+      </div>
+      <ul class="limit-list">
+        <li><b>macOS版はApple Silicon限定</b>macOS 11以上のM1以降向けです。Intel Macは対象外です。</li>
+        <li><b>Ubuntu版はまだ公開していません</b>Ubuntu 24.04 LTS x64は基本アプリ・画面取得・.deb・AppImageを検証済みですが、一般公開は署名と更新フィードの準備後です。</li>
+        <li><b>コード署名・公証なし</b>Windows版はSmartScreen、macOS版はGatekeeperの警告が出ます。配布URLを確認してから実行してください。</li>
+        <li><b>FreeToken対応は開発中</b>GPUのVRAM容量を超えるモデルも利用できるよう対応を進めていますが、現在の公開版にはまだ含まれません。</li>
+        <li><b>更新は手動確認</b>設定画面から更新を確認して実行します。自動更新は今後のバージョンで対応します。</li>
+        <li><b>初回のダウンロードが大きい</b>本体に加えてAIモデルを取得します（小型 約3.1GB／通常 約5.0GB）。</li>
+        <li><b>仕様が変わります</b>アルファ期間中は機能・画面・設定が変更される場合があります。大事なデータのバックアップをおすすめします。</li>
+        <li><b>1枚絵からのキャラ制作は試験機能</b>制作用のコンポーネントを別途導入する必要があり、入力する絵とPC環境で仕上がりが変わります。</li>
+      </ul>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-heading centered">
+        <p class="eyebrow">FAQ</p>
+        <h2>よくある質問</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>インターネットに繋がっていなくても使えますか？</summary><p>初回にAIモデルを取得したあとは、ローカルAIとの会話をオフラインで続けられます。Web検索や外部サービス連携など、通信が必要なスキルだけが使えなくなります。オフライン時に更新確認やエラー画面は出しません。</p></details>
+        <details><summary>会話やデータはどこに保存されますか？</summary><p>設定・会話履歴・長期記憶・関係性・実行履歴・追加したキャラクター・取得したAIモデルは、すべてお使いのPC内に保存されます。APIキーなどの秘密の値は、Windowsでは同じWindowsユーザーだけが復号できる形で暗号化し、macOSではログインキーチェーンへ預けて保存します（設定ファイルには項目名だけが残ります）。アンインストール時に削除するかどうかは選べます。</p></details>
+        <details><summary>自分のキャラクターを追加できますか？</summary><p>できます。連番PNGのキャラクターパックと、Live2D（Cubism 4 / 5）モデルの読み込みに対応しています。追加した素材の利用条件は、利用者ご自身でご確認ください。PicoAgentを使うことで新たな利用許諾が生じるものではありません。</p></details>
+        <details><summary>Live2Dのモデルは付属しますか？</summary><p>付属しません。紹介画面や動画で使用しているモデルは、条件を確認したうえで表示例として使っている公式サンプルです。ご自身が利用権を持つモデルを読み込んでお使いください。</p></details>
+        <details><summary>AIモデルは変更できますか？</summary><p>できます。同梱ローカルAIのモデルを一覧から選び直すほか、主要クラウドAIや手元のCLIエージェントへ接続先を切り替えられます。クラウドAIを使う場合は各社の利用料が発生します。</p></details>
+        <details><summary>ソースコードは公開していますか？</summary><p>公開していません。このリポジトリはインストーラ、紹介ページ、利用条件などの配布物専用です。PicoAgent本体のソースコード、内部スキル、開発資料、作業スクリプトは含みません。</p></details>
+        <details><summary>複数のAIに同時に聞けますか？</summary><p>できます。設定の「回答の作り方」を単一AIから切り替えると、登録した2〜8体のAIへ同じ質問を送って、まとめ役のAIが1つの答えへ統合します（合議）。仕事を割り振ってから統合する、割り振った結果をAIごとに並べて返す、という進めかたも選べます。参加させるAIは同梱ローカルAI・クラウドAI・手元のCLIエージェントから自由に組み合わせられ、AIごとにモデルと担当の希望を指定できます。参加した数だけ推論と外部AIの利用が増えるため、既定は単一AIのままです。</p></details>
+        <details><summary>勝手にファイルを消したりしませんか？</summary><p>しません。ファイル操作は許可したフォルダの中だけで行い、削除に相当する操作は必ずOSのゴミ箱へ移動します。<code>rm</code> や <code>Remove-Item</code> のような物理削除コマンドは、コマンド実行や予約実行の経路でも拒否します。WindowsやProgram Filesの領域は常に対象外です。</p></details>
+        <details><summary>アルファ版はどんな位置づけですか？</summary><p>開発中の版として、すべての機能を無料で公開しています。期間中は機能・画面・設定が変更される場合があるため、大事なデータはバックアップしてお使いください。</p></details>
+        <details><summary>アンインストールはどうしますか？</summary><p>Windowsは「アプリと機能」から削除できます。このとき、設定や会話履歴などのデータを残すか消すかを選べます。macOSはアプリケーションフォルダのPicoAgentをゴミ箱へ移動します。データを消す選択肢は出ないため、設定・会話履歴を消す場合はユーザーライブラリ配下のPicoAgentフォルダを手動で削除してください。どちらのOSでもPicoAgentが取得した同梱物は専用フォルダにまとめてあり、ほかのソフトの導入先には触れません。</p></details>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div>
+        <p class="eyebrow">READY WHEN YOU ARE</p>
+        <h2>今日から、好きなキャラと<br>PCを動かそう。</h2>
+        <p>開発中のWindows版 v1.0.2 Alphaと、Apple Silicon向けmacOS版 v1.0.4 Alphaを試せます。</p>
+      </div>
+      <a class="button light" href="https://github.com/benybeny777/PicoAgent-Distribution/releases">アルファ版を取得</a>
+    </section>
+  </main>
+
+  <a class="mobile-download" href="https://github.com/benybeny777/PicoAgent-Distribution/releases" aria-label="PicoAgentのアルファ版をダウンロード">
+    <span><b>アルファ版</b><small>Windows / macOS</small></span><strong>無料で取得</strong>
+  </a>
+
+  <footer class="site-footer">
+    <a class="logo" href="#top"><span class="logo-mark" aria-hidden="true">P</span><span>PICOAGENT</span></a>
+    <p>好きなキャラと、PCを動かす。</p>
+    <nav aria-label="フッターナビゲーション"><a href="support.html">サポート</a><a href="privacy.html">プライバシー</a><a href="terms.html">利用条件</a></nav>
+    <small>© 2026 PicoAgent</small>
+  </footer>
+</body>
+</html>
