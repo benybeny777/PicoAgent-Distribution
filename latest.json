@@ -1,0 +1,28 @@
+{
+  "notes": "PicoAgent Windows v1.0.5 Alpha（同梱7キャラ、2.5D描画、起動・安全性・スキルを更新）",
+  "platforms": {
+    "linux-x64": {
+      "sha256": "",
+      "size": 0,
+      "url": ""
+    },
+    "macos-arm64": {
+      "sha256": "",
+      "size": 0,
+      "url": ""
+    },
+    "macos-x64": {
+      "sha256": "",
+      "size": 0,
+      "url": ""
+    },
+    "windows-x64": {
+      "sha256": "016bea2055dc2b2fb75a7dc64e442124bec42754bb9612fc43daa3ea485be1dc",
+      "size": 127864106,
+      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.0.5/PicoAgent_1.0.5_x64-setup.exe"
+    }
+  },
+  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.0.5",
+  "schemaVersion": 1,
+  "version": "1.0.5"
+}
