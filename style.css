@@ -58,9 +58,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-copy h1 { margin: 0; font-size: clamp(49px, 5.25vw, 74px); letter-spacing: -.06em; line-height: 1.15; }
 .hero-copy h1 em { color: var(--pink-dark); font-style: normal; }
 .hero-lead { max-width: 550px; margin: 25px 0 28px; color: var(--sub); font-size: 17px; }
-.alpha-full-note { display: inline-flex; align-items: center; gap: 9px; margin: -12px 0 22px; padding: 9px 13px; border: 1px solid #e7cad5; border-radius: 999px; background: #fff4f7; color: #754252; font-size: 11px; }
-.alpha-full-note b { color: var(--pink-dark); }
-.hero-platforms { margin: 14px 0 0; color: #626476; font-size: 12px; line-height: 1.7; }
+.beta-full-note { display: inline-flex; align-items: center; gap: 9px; margin: -12px 0 22px; padding: 9px 13px; border: 1px solid #e7cad5; border-radius: 999px; background: #fff4f7; color: #754252; font-size: 11px; }
+.beta-full-note b { color: var(--pink-dark); }
 .trust-list { display: flex; flex-wrap: wrap; gap: 12px 20px; margin: 23px 0 0; padding: 0; color: #626476; font-size: 12px; font-weight: 700; list-style: none; }
 .trust-list span { display: inline-grid; width: 19px; height: 19px; margin-right: 5px; place-items: center; border-radius: 50%; background: var(--mint-soft); color: #52a58a; }
 
@@ -186,8 +185,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .plan-card ul { display: grid; gap: 12px; margin: 0 0 27px; padding: 23px 0 0; border-top: 1px solid var(--line); list-style: none; }
 .plan-card li { position: relative; padding-left: 24px; color: #5e5f70; font-size: 13px; }
 .plan-card li::before { content: "✓"; position: absolute; left: 0; color: var(--pink-dark); font-weight: 900; }
-.plan-archive { margin: 16px 0 0; color: var(--sub); font-size: 12px; text-align: center; }
-.plan-archive a { color: var(--pink-dark); }
 .plan-note { margin: 25px auto 0; color: var(--sub); font-size: 11px; text-align: center; }
 
 .guide { padding-top: 80px; }
@@ -328,7 +325,6 @@ body:not(.landing) > footer { padding: 32px 0 56px; color: var(--sub); font-size
 .model-card h3 { margin: 10px 0 12px; font-size: 19px; }
 .model-card p { margin: 0; color: var(--sub); font-size: 13.5px; }
 .model-card ul { margin: 14px 0 0; padding-left: 18px; color: var(--sub); font-size: 12.5px; line-height: 1.9; }
-.models .text-link { color: var(--pink-dark); }
 .voice-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .voice-grid article { padding: 26px; border: 1px solid var(--line); border-radius: 22px; background: #fff; }
 .voice-grid h3 { margin: 0 0 10px; font-size: 18px; }
