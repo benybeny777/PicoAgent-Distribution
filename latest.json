@@ -1,5 +1,5 @@
 {
-  "notes": "PicoAgent Windows v1.0.5 Alpha（同梱7キャラ、2.5D描画、起動・安全性・スキルを更新）",
+  "notes": "PicoAgent Windows v1.1.0 Alpha（ローカルAIのコンテキスト長を32,768へ拡大、入力画像編集と選択式ローカル動画生成を追加、キャラクター作成機能を統合、表情・口パクの自然さと構図・DPI表示を改善）",
   "platforms": {
     "linux-x64": {
       "sha256": "",
@@ -17,12 +17,12 @@
       "url": ""
     },
     "windows-x64": {
-      "sha256": "016bea2055dc2b2fb75a7dc64e442124bec42754bb9612fc43daa3ea485be1dc",
-      "size": 127864106,
-      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.0.5/PicoAgent_1.0.5_x64-setup.exe"
+      "sha256": "831371fe73b61dc311261861d38058280dba156d2dfbd12ade5d50eb84a8a3d2",
+      "size": 115809045,
+      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.1.0/PicoAgent_1.1.0_x64-setup.exe"
     }
   },
-  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.0.5",
+  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.1.0",
   "schemaVersion": 1,
-  "version": "1.0.5"
+  "version": "1.1.0"
 }

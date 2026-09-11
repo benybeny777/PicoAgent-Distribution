@@ -1,11 +1,11 @@
-# PicoAgent v1.0.5 Alpha
+# PicoAgent v1.1.0 Alpha
 
 PicoAgentは、キャラクターと会話しながらPC作業も手伝ってもらえるデスクトップペットです。付属の2Dキャラに加え、利用権を持つPNG／Live2Dモデルを追加できます。既定のローカルAIでは会話をPC内で処理します。
 
-この公開サイトはPicoAgent本体の`distribution/site`を正本とし、公開リポジトリの`main`へ反映すると同梱のGitHub Pagesワークフローが静的ファイルを配信します。
+この公開サイトはこのリポジトリの`main`を正本とし、`main`へ反映すると同梱のGitHub Pagesワークフローが静的ファイルを配信します。本体リポジトリの`distribution/site`は編集正本にも同期元にもしません。
 
 > [!WARNING]
-> 現在公開しているものは**Windows版 PicoAgent v1.0.5 Alpha**と**macOS版 v1.0.4 Alpha**です。不具合、仕様変更、設定の互換性変更が入る可能性があります。大切なデータはバックアップし、試用目的でお使いください。Windows版は未署名のためSmartScreen警告が表示される場合があります。
+> 現在公開しているものは**Windows版 PicoAgent v1.1.0 Alpha**と**macOS版 v1.0.4 Alpha**です。不具合、仕様変更、設定の互換性変更が入る可能性があります。大切なデータはバックアップし、試用目的でお使いください。Windows版は未署名のためSmartScreen警告が表示される場合があります。
 
 > [!NOTE]
 > **開発中のアルファ版として、PicoAgentのすべての機能を無料で公開しています。** 外部APIの利用料や、選択した追加コンポーネントの導入条件は別途適用されます。
@@ -128,7 +128,7 @@ APIキー等はWindowsのDPAPIで暗号化して保存し、同じWindowsユー�
 |---|---|
 | OS | Windows 10／11 x64 |
 | 必須ランタイム | Microsoft WebView2（通常はWindowsに導入済み） |
-| 現在のインストーラ | Windows v1.0.5は127.86 MB、macOS v1.0.4は173.56 MB。高精細な付属7キャラを含む |
+| 現在のインストーラ | Windows v1.1.0は115.81 MB、macOS v1.0.4は173.56 MB。高精細な付属7キャラを含む |
 | ローカルAI最小構成 | RAM 8GB、CPU動作可、モデル約3.1GB |
 | 通常推奨 | RAM 16GB、VRAM 4GB、モデル約5.0GB |
 | GPU | 必須ではありません。対応GPUではVulkan推論を利用できます |
@@ -143,7 +143,7 @@ APIキー等はWindowsのDPAPIで暗号化して保存し、同じWindowsユー�
 3. PicoAgentを起動し、初回画面で用途と必要な追加機能を選びます。
 4. ローカルAIを使う場合は、初回だけモデル取得のためインターネット接続と数GBの空き容量が必要です。
 
-Windows 10／11（64bit）はv1.0.5、macOS Apple Siliconは現行v1.0.4のアルファ版を公開しています。macOS版は未署名のため、正式配布前に署名・公証を追加します。
+Windows 10／11（64bit）はv1.1.0、macOS Apple Siliconは現行v1.0.4のアルファ版を公開しています。macOS版は未署名のため、正式配布前に署名・公証を追加します。
 
 ## 簡単な使い方
 
