@@ -1,5 +1,5 @@
 {
-  "notes": "PicoAgent Windows v1.1.1 Alpha（設定画面、起動中の非表示、キャラ別背景と音声、MMD描画・待機動作、配信フルHDを改善）",
+  "notes": "PicoAgent Windows v1.1.2 Alpha（チャットからの画像生成、Web検索の先回り実行、配信字幕の選択防止、生成機能のポート衝突を改善）",
   "platforms": {
     "linux-x64": {
       "sha256": "",
@@ -17,12 +17,12 @@
       "url": ""
     },
     "windows-x64": {
-      "sha256": "eaaf766c0d80e33a255b9c86d453e53ad7381d612538accf69203b47ac433399",
-      "size": 121072174,
-      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.1.1/PicoAgent_1.1.1_x64-setup.exe"
+      "sha256": "23ed76ceddeb3d96434d89b2046abfea2ce51ea63ddb56306fe5a79faaa9713c",
+      "size": 121081024,
+      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.1.2/PicoAgent_1.1.2_x64-setup.exe"
     }
   },
-  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.1.1",
+  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.1.2",
   "schemaVersion": 1,
-  "version": "1.1.1"
+  "version": "1.1.2"
 }
