@@ -1,5 +1,5 @@
 {
-  "notes": "PicoAgent Windows v1.1.2 Alpha（チャットからの画像生成、Web検索の先回り実行、配信字幕の選択防止、生成機能のポート衝突を改善）",
+  "notes": "PicoAgent Windows v1.1.3 Alpha（実行中タスク表示、設定分類とクイック操作、天気地点選択、ニュース深掘り、画面操作と応答の安定性、TLS依存の安全性を改善）",
   "platforms": {
     "linux-x64": {
       "sha256": "",
@@ -17,12 +17,12 @@
       "url": ""
     },
     "windows-x64": {
-      "sha256": "23ed76ceddeb3d96434d89b2046abfea2ce51ea63ddb56306fe5a79faaa9713c",
-      "size": 121081024,
-      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.1.2/PicoAgent_1.1.2_x64-setup.exe"
+      "sha256": "11173dbbdfab695bebe4f68d7038496486ff1870fd1a28bb8d62e754b8292fb0",
+      "size": 121107537,
+      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.1.3/PicoAgent_1.1.3_x64-setup.exe"
     }
   },
-  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.1.2",
+  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.1.3",
   "schemaVersion": 1,
-  "version": "1.1.2"
+  "version": "1.1.3"
 }
