@@ -1,5 +1,5 @@
 {
-  "notes": "PicoAgent Windows v1.1.3 Alpha（実行中タスク表示、設定分類とクイック操作、天気地点選択、ニュース深掘り、画面操作と応答の安定性、TLS依存の安全性を改善）",
+  "notes": "PicoAgent Windows v1.1.4 Alpha（履歴検索・下書き・設定操作と競合処理を改善。Krea 2 Turbo画像生成・LTX 2.5動画生成を任意導入として追加）",
   "platforms": {
     "linux-x64": {
       "sha256": "",
@@ -17,12 +17,12 @@
       "url": ""
     },
     "windows-x64": {
-      "sha256": "11173dbbdfab695bebe4f68d7038496486ff1870fd1a28bb8d62e754b8292fb0",
-      "size": 121107537,
-      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.1.3/PicoAgent_1.1.3_x64-setup.exe"
+      "sha256": "d2d0e764c9b9cc092e71727567f8a4364ce2eea4317c1656ea2917ee0f10d8b1",
+      "size": 121275199,
+      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.1.4/PicoAgent_1.1.4_x64-setup.exe"
     }
   },
-  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.1.3",
+  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.1.4",
   "schemaVersion": 1,
-  "version": "1.1.3"
+  "version": "1.1.4"
 }
