@@ -1,5 +1,5 @@
 {
-  "notes": "PicoAgent Windows v1.1.4 Alpha（履歴検索・下書き・設定操作と競合処理を改善。Krea 2 Turbo画像生成・LTX 2.5動画生成を任意導入として追加）",
+  "notes": "PicoAgent Windows v1.1.5 Alpha（画面操作・キャラ表示・導入中断時の復旧を改善。話題ガード、公式モデル取得導線、ミニゲームの新要素を追加）",
   "platforms": {
     "linux-x64": {
       "sha256": "",
@@ -17,12 +17,12 @@
       "url": ""
     },
     "windows-x64": {
-      "sha256": "d2d0e764c9b9cc092e71727567f8a4364ce2eea4317c1656ea2917ee0f10d8b1",
-      "size": 121275199,
-      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.1.4/PicoAgent_1.1.4_x64-setup.exe"
+      "sha256": "fa55f296f2a9c8f532d2630069790f48f7c21ba6b8d23f95c9223b00ea005687",
+      "size": 121299161,
+      "url": "https://github.com/benybeny777/PicoAgent-Distribution/releases/download/v1.1.5/PicoAgent_1.1.5_x64-setup.exe"
     }
   },
-  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.1.4",
+  "releasePage": "https://github.com/benybeny777/PicoAgent-Distribution/releases/tag/v1.1.5",
   "schemaVersion": 1,
-  "version": "1.1.4"
+  "version": "1.1.5"
 }
