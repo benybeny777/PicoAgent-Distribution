@@ -1,8 +1,8 @@
 # PicoAgent
 
-**ローカル推論・ツール実行・音声・キャラクター表示を統合した、Rust / Tauri製のデスクトップAIエージェント。**
+**会話・写真や画面の読み取り・PC操作・音声・独自2.5D／Live2D／MMDモデルの表示を統合した、Rust / Tauri製のデスクトップAIエージェント。**
 
-自然言語の依頼をモデルの応答とツール実行のループへ接続し、PC上の作業まで扱うアプリです。LLMの接続先を差し替える共通インターフェース、複数AIの協調、ローカル推論エンジンの管理、操作権限とデータ保護、常駐UIを一つの製品へ組み込んでいます。
+自然言語の依頼をモデルの応答とツール実行のループへ接続し、PC上の作業まで扱うアプリです。独自2.5D、Live2D、MMDのキャラクターを表示し、会話の読み上げに合わせて口パクや表情を動かします。LLMの接続先を差し替える共通インターフェース、複数AIの協調、ローカル推論エンジンの管理、操作権限とデータ保護、常駐UIを一つの製品へ組み込んでいます。
 
 [公式ページ](https://benybeny777.github.io/PicoAgent-Distribution/) · [ダウンロード](https://github.com/benybeny777/PicoAgent-Distribution/releases) · [不具合報告](https://github.com/benybeny777/PicoAgent-Distribution/issues)
 
